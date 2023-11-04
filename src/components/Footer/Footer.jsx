@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-green-500 py-4 fixed bottom-0 left-0 right-0 px-4">
+    <footer className="bg-green-500 py-4 bottom-0 left-0 right-0 px-4">
       <div className="container mx-auto flex items-center justify-between">
         <p className="text-white text-sm">&copy; {new Date().getFullYear()} Corpo & Mente</p>
         <nav>
