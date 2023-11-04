@@ -10,7 +10,7 @@ const Header = () => {
           <a href="#" className="text-white text-2xl font-bold">Corpo & Mente</a>
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="#" className="text-white">Início</a></li>
+              <li><a href="#" className="text-white">Pensamento Saudável</a></li>
               <li><a href="#" className="text-white">Dicas de Saúde</a></li>
               <li><a href="#" className="text-white">Bem-Estar Mental</a></li>
             </ul>
