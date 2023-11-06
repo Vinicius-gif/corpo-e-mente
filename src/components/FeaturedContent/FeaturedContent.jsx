@@ -17,8 +17,8 @@ function FeaturedContent() {
       description: 'Viver bem em um mundo doentio requer equilíbrio entre autocuidado e empatia.',
     },
     {
-      title: 'Pensamento saudável',
-      link: '/PensamentoSaudavel',
+      title: 'Cuidado Piscicologico',
+      link: '/CuidadoPiscicologico',
       image: '/images/img-home3.jpg',
       description: 'Como pensar numa vida saudável em meio as adversidades do dia a dia',
     },

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VivendoSaudavel = () => {
+const CuidadoPiscicologico = () => {
   return (
-    <div>VivendoSaudavel</div>
+    <div>CuidadoPiscicologico</div>
   );
 };
 
-export default VivendoSaudavel;
+export default CuidadoPiscicologico;
