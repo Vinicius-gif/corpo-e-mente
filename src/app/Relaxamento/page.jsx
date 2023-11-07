@@ -33,7 +33,12 @@ const Relaxamento = () => {
           <p>Segue abaixo passo a passo de como fazer a automassagem no ambiente de trabalho.</p>
         </section>
         <div className="flex justify-center">
-          <Image className="my-10" alt="" src="" width={500} height={500}/>
+          <Image 
+            className="my-10" 
+            alt="relaxamento"
+            src="/images/relaxamentoPage/relaxamento1.jpeg"
+            width={600} height={600}
+          />
         </div>
       </section>
       <section>
@@ -62,7 +67,12 @@ const Relaxamento = () => {
       <section>
         <h3 className="my-7 text-2xl font-semibold text-center">Dicas para começar a meditar</h3>
         <div className="flex justify-center">
-          <Image className="my-10" alt="" src="" width={500} height={500}/>
+          <Image 
+            className="my-10" 
+            alt="relaxamento" 
+            src="/images/relaxamentoPage/relaxamento2.jpeg" 
+            width={600} height={600}
+          />
         </div>
         <ol className="list-decimal [&>li]:py-6">
           <li>
@@ -108,7 +118,12 @@ const Relaxamento = () => {
           sua rotina de treinos.
         </p>
         <div className="flex justify-center">
-          <Image className="my-10" alt="" src="" width={500} height={500}/>
+          <Image 
+            className="my-10" 
+            alt="relaxamento" 
+            src="/images/relaxamentoPage/relaxamento3.jpeg" 
+            width={600} height={600}
+          />
         </div>
         <h3 className="my-7 text-2xl font-semibold">
           Exercício Físico
@@ -120,7 +135,12 @@ const Relaxamento = () => {
           de bicicleta, natação, corrida, dentre outros, pode ajudar e muito na melhora de nossa saúde mental.
         </p>
         <div className="flex justify-center">
-          <Image className="my-10" alt="" src="" width={500} height={500}/>
+          <Image 
+            className="my-10" 
+            alt="relaxamento" 
+            src="/images/relaxamentoPage/relaxamento4.jpeg" 
+            width={600} height={600}
+          />
         </div>
         <p className="pb-12">
           Outros meios de estar relaxando corpo e a mente é você se dedicar a um trabalho

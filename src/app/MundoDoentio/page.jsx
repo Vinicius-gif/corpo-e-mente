@@ -1,12 +1,13 @@
-import Image from 'next/image';
 import React from 'react';
+import Card from '../Card';
 
 const MundoDoentio = () => {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-lg py-11">
-      <h2 className="text-2xl font-semibold mb-4 text-center border-b-2 border-green-600 pb-2">Como Viver Bem em um Mundo Doentio</h2>
-      
-      <p className="text-center mx-5">
+    <div className="rounded-lg shadow-lg px-14 py-9">
+      <h2 className="text-2xl font-semibold mb-6 text-center border-b-2 border-green-600 pb-4">
+        Como Viver Bem em um Mundo Doentio
+      </h2>
+      <p className=" mx-5">
         Para usufruir das oportunidades que a vida nos traz, precisamos estar bem em todos os aspectos:
         físico, psicológico, social, religioso e financeiro. Alinhar nossos anseios com nossa realidade
         e desejo futuros, o processo de viver saudável nesses quesitos mencionados requer uma análise 
@@ -16,8 +17,8 @@ const MundoDoentio = () => {
       
       {/* Continue adicionando o restante do texto e formate-o conforme necessário */}
       
-      <h3 className="text-lg font-semibold mt-4 mb-2 text-center">Segue abaixo algumas dicas para ser mais feliz</h3>
-      <div className="mx-auto max-w-md border-b-2 border-green-600 pb-2">
+      <h3 className="text-lg font-semibold mt-4 mb-2 ">Segue abaixo algumas dicas para ser mais feliz:</h3>
+      <div className="ml-5 border-b-2 border-green-600 pb-2">
         <ol className="list-decimal ml-6 [&>*]:my-10">
           <li className="my-4">Celebre as pequenas conquistas.</li>
           <li>Pratique o autocuidado com você e com os demais.</li>
@@ -28,25 +29,13 @@ const MundoDoentio = () => {
         </ol>
       </div>
       
-      <h3 className="text-lg font-semibold mt-4 mb-2 text-center">Como viver bem?</h3>
+      <h3 className="text-2xl font-semibold my-8 mx-10">Como viver bem?</h3>
       <div className="grid grid-cols-1 gap-7 justify-items-center">
-        <div className="[&>h3]:font-extrabold text-xl">
-          <section className="border-b-2 border-green-600 pb-2 flex flex-col items-center">
-            <h3 className="text-center my-4">Estabeleça prioridades</h3>
-            <Image src="/images/metas.jpg" alt="metas" width={200} height={100}/>
-          </section>
-          <section className="border-b-2 border-green-600 pb-2 flex flex-col items-center">
-            <h3 className="text-center my-4">Organize uma rotina de descanso e lazer</h3>
-            <Image src="/images/descanso.jpg" alt="metas" width={200} height={100}/>
-          </section>
-          <section className="border-b-2 border-green-600 pb-2 flex flex-col items-center">
-            <h3 className="text-center my-4">Organize seu espaço de trabalho</h3>
-            <Image src="/images/organize.jpg" alt="metas" width={200} height={100}/>
-          </section>
-          <section className="border-b-2 border-green-600 pb-2 flex flex-col items-center">
-            <h3 className="text-center my-4">Separe sua vida pessoal do profissional</h3>
-            <Image src="/images/separe.jpg" alt="metas" width={200} height={100}/>
-          </section>
+        <div className="grid grid-cols-4 gap-5 my-6">
+          <Card title="Estabeleça prioridades" image="/images/metas.jpg"/>
+          <Card title="Organize uma rotina de descanso e lazer" image="/images/descanso.jpg"/>
+          <Card title="Organize seu espaço de trabalho" image="/images/organize.jpg"/>
+          <Card title="Separe sua vida pessoal do profissional" image="/images/separe.jpg"/>
         </div>
       </div>
     </div>
