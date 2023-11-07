@@ -3,8 +3,8 @@ import React from 'react';
 
 const AutosCuidadosGerais = () => {
   return (
-    <div className="bg-blue-100 p-8 rounded-lg shadow-lg text-center px-96">
-      <h2 className="text-2xl font-bold mb-4">Como conciliar vida, estudos e trabalho de forma saudável</h2>
+    <div className="p-8 rounded-lg shadow-lg px-11">
+      <h2 className="text-center mt-11 font-medium text-3xl border-b-2 border-green-500 pb-8">Como conciliar vida, estudos e trabalho de forma saudável</h2>
       <p className="text-gray-700 my-5">
       Sabemos que a vida adulta é repleta de desafios, onde a responsabilidade aumenta não só consigo mesmo como
       com os outros ao seu redor, por exemplo, família. No quesito trabalho e estudo, sabemos que necessitamos
@@ -14,7 +14,7 @@ const AutosCuidadosGerais = () => {
       mesmo na sua saúde física, mental e emocional. Por mais importante que um trabalho ou curso possa ser,
       existem aspectos que devem estar em maior prioridade, por exemplo, sua família e você mesmo, é claro.
       </p>
-      <div className="mt-4 my-20">
+      <div className="mt-4 my-11">
         <h3 className="text-xl font-bold mb-2 my-20">Dicas para conciliar vida, estudos e trabalho de forma saudável:</h3>
         <ul className="list-inside text-gray-700 list-none">
           <li className="my-8">
