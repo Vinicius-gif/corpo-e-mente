@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -7,8 +9,17 @@ function Footer() {
         <p className="text-white text-sm">&copy; {new Date().getFullYear()} Corpo & Mente</p>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#" className="text-white">Política de Privacidade</a></li>
-            <li><a href="#" className="text-white">Termos de Uso</a></li>
+            <li className="text-white">Desenvolvido por:</li>
+            <li>
+              <Link 
+                href="https://www.linkedin.com/in/vinicius-felipe-5148a81b5/" 
+                className="text-white"
+              >
+                <FaLinkedin size={35}/>
+              </Link>
+            </li>
+            <li><Link href="#" className="text-white">Política de Privacidade</Link></li>
+            <li><Link href="#" className="text-white">Termos de Uso</Link></li>
           </ul>
         </nav>
       </div>
